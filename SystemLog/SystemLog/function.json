@@ -1,0 +1,19 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\SystemLog.dll",
+  "entryPoint": "JE.RMS.Services.SystemLog.Run",
+  "bindings": [
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queueTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}

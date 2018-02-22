@@ -1,0 +1,20 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\ScheduledGetRewardsTrxReceived.dll",
+  "entryPoint": "JE.RMS.Services.ScheduledGetRewardsTrxReceived.Run",
+  "bindings": [
+    {
+      "schedule": "*/20 * * * * *",
+      "name": "evaluateRewardsTrxTimer",
+      "type": "timerTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

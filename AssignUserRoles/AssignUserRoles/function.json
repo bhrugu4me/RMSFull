@@ -1,0 +1,25 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\AssignUserRoles.dll",
+  "entryPoint": "JE.RMS.Services.AssignUserRoles.Run",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

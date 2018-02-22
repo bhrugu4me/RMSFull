@@ -1,0 +1,20 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\ScheduledReadRewardsResponseRecieved.dll",
+  "entryPoint": "JE.RMS.Services.ScheduledReadRewardsResponseRecieved.Run",
+  "bindings": [
+    {
+      "schedule": "*/10 * * * * *",
+      "name": "rewardsResponseTimer",
+      "type": "timerTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

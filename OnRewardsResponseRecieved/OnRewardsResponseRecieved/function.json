@@ -1,0 +1,22 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\OnRewardsResponseRecieved.dll",
+  "entryPoint": "JE.RMS.Services.OnRewardsResponseRecieved.Run",
+  "bindings": [
+    {
+      "connection": "MyServiceBusReader",
+      "direction": "in",
+      "name": "responsemessage",
+      "subscriptionName": "AllFulfillmentResponseSubscription",
+      "topicName": "fulfillmentresponse",
+      "type": "serviceBusTrigger"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

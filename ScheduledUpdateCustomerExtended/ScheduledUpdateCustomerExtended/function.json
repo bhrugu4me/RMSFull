@@ -1,0 +1,25 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\ScheduledUpdateCustomerExtended.dll",
+  "entryPoint": "JE.RMS.Services.ScheduledUpdateCustomerExtended.Run",
+  "bindings": [
+    {
+      "schedule": "0 30 1 * * *",
+      "name": "updateCustomerExtendedTimer",
+      "type": "timerTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

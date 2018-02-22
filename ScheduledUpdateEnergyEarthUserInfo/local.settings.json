@@ -1,0 +1,19 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=jermsstorage;AccountKey=GDwUCS0oL+izvVnEpKkia+zf5H7sHsXjfw5Bc0xjjcCpGoK0qDwO7UjfLpe/cUgiVw1Ow19aJxxXuAew03j7OA==",
+    "AzureWebJobsDashboard": "",
+    "MyServiceBusReader": "Endpoint=sb://xxxx=",
+    "EnergyEarthBaseUrl": "https://apitest.energyearth.com",
+    "EEUserName": "api-test-jemw",
+    "EEPassword": "J17iMcyxr",
+    "GetTransactionLogFromEnergyEarthUrl": "points/transactions",
+    "GetUserFunctionCode": "?code=YCai54p6rS99jQab28EnqvaUOSFb94GSPT70A/vWbavKKdV4YrKQrg==&UserId=",
+    "GetUserFunctionUrl": "https://je-rms-dev-functionapp.azurewebsites.net/api/EEGetUser"
+
+  },
+  "ConnectionStrings": {
+    "jermsstorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=jermsstorage;AccountKey=GDwUCS0oL+izvVnEpKkia+zf5H7sHsXjfw5Bc0xjjcCpGoK0qDwO7UjfLpe/cUgiVw1Ow19aJxxXuAew03j7OA==",
+    "mycnnstr": "server=hfbkxov0le.database.windows.net;database=RMS_DEV;uid=transactor;password=Pa$$w0rd;"
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=rmscaccdevstorage01;AccountKey=lJG69s1ybUyon9/F6mDbAn49FF2D/QlgUXZILpXGqYxqRKsW4ru4d+xGV0kytapGc6hIhSmzZSAel4p/CRE4ug==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "",
+    "MyServiceBusReader": "Endpoint=sb://rms-cacc-dev-servicebus01.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=cvLCQOWd2Gq8VpT1dQvOmB6zEiMDfDmOfUc4br7OH1E=",
+    "jermsstorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=rmscaccdevstorage01;AccountKey=lJG69s1ybUyon9/F6mDbAn49FF2D/QlgUXZILpXGqYxqRKsW4ru4d+xGV0kytapGc6hIhSmzZSAel4p/CRE4ug==;EndpointSuffix=core.windows.net",
+    "RewardFulfillmentRequestBatchSize": "10",
+    "RewardFulfillmentRequestRepeatCallSize": "3"
+  },
+  "ConnectionStrings": {
+    "jermsstorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=rmscaccdevstorage01;AccountKey=lJG69s1ybUyon9/F6mDbAn49FF2D/QlgUXZILpXGqYxqRKsW4ru4d+xGV0kytapGc6hIhSmzZSAel4p/CRE4ug==;EndpointSuffix=core.windows.net",
+    "mycnnstr": "server=azusccstgsql01.database.windows.net;database=RMS_DEV;uid=Clarkkent;password=D*p54&mF&;"
+  }
+}

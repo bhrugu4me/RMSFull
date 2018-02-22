@@ -1,0 +1,21 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\OnRewardsRequestRecieved.dll",
+  "entryPoint": "JE.RMS.Services.OnRewardsRequestRecieved.Run",
+  "bindings": [
+    {
+      "name": "inputmessage",
+      "queueName": "submitrewardsrequestqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queueTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

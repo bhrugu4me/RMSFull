@@ -1,0 +1,25 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\ScheduledGetPointTransactionLog.dll",
+  "entryPoint": "JE.RMS.Services.ScheduledGetPointTransactionLog.Run",
+  "bindings": [
+    {
+      "schedule": "0 */1 * * * *",
+      "name": "getPointTransactionTimer",
+      "type": "timerTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

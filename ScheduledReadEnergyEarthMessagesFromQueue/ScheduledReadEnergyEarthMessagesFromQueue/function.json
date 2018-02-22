@@ -1,0 +1,21 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\ScheduledReadEnergyEarthMessagesFromQueue.dll",
+  "entryPoint": "JE.RMS.Services.ScheduledReadEnergyEarthMessagesFromQueue.Run",
+  "bindings": [
+    {
+      "schedule": "*/20 * * * * *",
+      "name": "getScheduledReadEnergyEarthMessagesTimer",
+      "type": "timerTrigger",
+      "connection": "jermsstorage_STORAGE",
+      "direction": "in"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

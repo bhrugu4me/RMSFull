@@ -1,0 +1,109 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "RewardsRequest": {
+      "items": {
+        "required": [ "RequestID", "TransactionType", "Reward", "Customer" ],
+        "properties": {
+          "AdditionalData": {
+            "items": {
+              "properties": {
+                "Name": {
+                  "type": "string"
+                },
+                "Value": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "Customer": {
+            "required": [ "SourceSystemID", "SourceSystemUniqueID", "SourceSystemUniqueIDType", "Email", "FirstName", "LastName" ],
+            "properties": {
+              "AddressLine1": {
+                "type": "string"
+              },
+              "AddressLine2": {
+                "type": "string"
+              },
+              "City": {
+                "type": "string"
+              },
+              "CompanyName": {
+                "type": "string"
+              },
+              "Email": {
+                "type": "string"
+              },
+              "FirstName": {
+                "type": "string"
+              },
+              "Language": {
+                "type": "string"
+              },
+              "LastName": {
+                "type": "string"
+              },
+              "MasterID": {
+                "type": "string"
+              },
+              "Phone1": {
+                "type": "string"
+              },
+              "Product": {
+                "type": "string"
+              },
+              "SourceSystemID": {
+                "type": "string"
+              },
+              "SourceSystemUniqueID": {
+                "type": "string"
+              },
+              "SourceSystemUniqueIDType": {
+                "type": "string"
+              },
+              "StateProvince": {
+                "type": "string"
+              },
+              "ZipPostalCode": {
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "RequestID": {
+            "type": "string"
+          },
+          "Reward": {
+            "required": [ "ProductCode", "ProductValue", "EffectiveDate" ],
+            "properties": {
+              "EffectiveDate": {
+                "type": "string"
+              },
+              "ProductCode": {
+                "type": "string"
+              },
+              "ProductValue": {
+                "type": "string"
+              },
+              "ProgramName": {
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "TransactionType": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,68 @@
+﻿{
+  // The unique ID for this job host. Can be a lower case GUID
+  // with dashes removed. When running in Azure Functions, the id can be omitted, and one gets generated automatically.
+  "id": "9f4ea53c5136457d883d685e57164f08",
+  // Value indicating the timeout duration for all functions.
+  // In Dynamic SKUs, the valid range is from 1 second to 10 minutes and the default value is 5 minutes.
+  // In Paid SKUs there is no limit and the default value is null (indicating no timeout).
+  "functionTimeout": "00:05:00",
+  // Configuration settings for 'http' triggers. (Optional)
+  "http": {
+    // Defines the default route prefix that applies to all routes. Default is 'api'.
+    // Use an empty string to remove the prefix.
+    "routePrefix": "api",
+    // the maximum number of outstanding requests that will be held at any given time. The default is unbounded (-1).
+    "maxOutstandingRequests": 20,
+    // the maximum number of http functions that will be executed in parallel. The default is unbounded (-1).
+    "maxConcurrentRequests":5,
+    // The default is false.
+    "dynamicThrottlesEnabled": false
+  },
+  // Set of shared code directories that should be monitored for changes to ensure that
+  // when code in these directories is changed, it is picked up by your functions
+  "watchDirectories": [ "Shared" ],
+  // Array of functions to load. Only functions in this list will be enabled.
+  // If not specified, all functions are enabled.
+  //"functions": [ "SubmitRewardsRequest" ],
+  // Configuration settings for 'queue' triggers. (Optional)
+  "queues": {
+    // The maximum interval in milliseconds between
+    // queue polls. The default is 1 minute.
+    "maxPollingInterval": 2000,
+    // The visibility timeout that will be applied to messages that fail processing
+    // (i.e. the time interval between retries)
+    "visibilityTimeout": "00:00:10",
+    // The number of queue messages to retrieve and process in
+    // parallel (per job function). The default is 16 and the maximum is 32.
+    "batchSize": 16,
+    // The number of times to try processing a message before
+    // moving it to the poison queue. The default is 5.
+    "maxDequeueCount": 5,
+    // The threshold at which a new batch of messages will be fetched.
+    // The default is batchSize/2.
+    "newBatchThreshold": 8
+  },
+  // Configuration settings for logging/tracing behavior. (Optional)
+  "tracing": {
+    // The tracing level used for console logging.
+    // The default is 'info'. Options are: { off, error, warning, info, verbose }
+    "consoleLevel": "verbose",
+    // Value determining what level of file logging is enabled.
+    // The default is 'debugOnly'. Options are: { never, always, debugOnly }
+    "fileLoggingMode": "debugOnly"
+  },
+  // Configuration settings for Singleton lock behavior. (Optional)
+  "singleton": {
+    // The period that function level locks are taken for (they will auto renew)
+    "lockPeriod": "00:00:15",
+    // The period that listener locks are taken for
+    "listenerLockPeriod": "00:01:00",
+    // The time interval used for listener lock recovery if a listener lock
+    // couldn't be acquired on startup
+    "listenerLockRecoveryPollingInterval": "00:01:00",
+    // The maximum amount of time the runtime will try to acquire a lock
+    "lockAcquisitionTimeout": "00:01:00",
+    // The interval between lock acquisition attempts
+    "lockAcquisitionPollingInterval": "00:00:03"
+  }
+}

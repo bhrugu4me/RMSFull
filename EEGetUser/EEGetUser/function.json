@@ -1,0 +1,26 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\EEGetUser.dll",
+  "entryPoint": "JE.RMS.Services.EEGetUser.Run",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [ "get" ]
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "errormessage",
+      "queueName": "savesystemlogqueue",
+      "connection": "jermsstorage_STORAGE",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

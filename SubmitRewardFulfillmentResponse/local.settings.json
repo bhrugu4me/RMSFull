@@ -1,0 +1,19 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "AzureWebJobsDashboard": "",
+    "MyServiceBusReader": "Endpoint=sb://je-rms-dev-servicebus-01.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ojmB3lgsCFGFlN4dd+PWR4mtOWgQwQIKHNN12DyVkO4=",
+    "jermsstorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=jermsstorage;AccountKey=GDwUCS0oL+izvVnEpKkia+zf5H7sHsXjfw5Bc0xjjcCpGoK0qDwO7UjfLpe/cUgiVw1Ow19aJxxXuAew03j7OA==",
+    "SaveRewardsTrxEndpoint": "https://je-rms-dev-functionapp.azurewebsites.net/api/SaveRewardsTrx?code=tJEehcs9ODiKazpx23lVeEF8RMvPfjeNsAfgZyJRwX8ezygFPqIJpA==",
+    "SaveUsersFunctionUrl": "https://je-rms-dev-functionapp.azurewebsites.net/api/EESaveUser?code=rveAmCpB1Kc4153slpE0lCd8VV/vdEl9v756r6Leio3aZzaLzOF6tw==",
+    "RegisterPointFunctionUrl": "https://je-rms-dev-functionapp.azurewebsites.net/api/EERegisterPoints?code=gw8cRbGrWIUtvqkaZb7aPmtTBdgz9QhpbB7waTCVUNlxtYTSnN8CAw==",
+    "GetUserFunctionUrl": "https://je-rms-dev-functionapp.azurewebsites.net/api/EEGetUser",
+    "UpdatePointStatusFunctionUrl": "https://je-rms-dev-functionapp.azurewebsites.net/api/EEUpdatePointsStatus?code=aQl0StQ6zdIGn07S//4dElqacPSp3aNvkRyxM4EN7m0vrgpN7WEkAw==",
+  },
+  "ConnectionStrings": {
+    "mycnnstr": "server=hfbkxov0le.database.windows.net;database=RMS_DEV;uid=transactor;password=Pa$$w0rd;",
+    //"StorageConnectionString": "UseDevelopmentStorage=true;",
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=jermsstorage;AccountKey=GDwUCS0oL+izvVnEpKkia+zf5H7sHsXjfw5Bc0xjjcCpGoK0qDwO7UjfLpe/cUgiVw1Ow19aJxxXuAew03j7OA=="
+  }
+}

@@ -1,0 +1,22 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "AzureWebJobsDashboard": "",
+    "EnergyEarthBaseUrl": "https://apitest.energyearth.com",
+    "EEUserName": "api-test-jemw",
+    "EEPassword": "J17iMcyxr",
+    "ScheduledReadEnergyEarthMessagesFromQueueUrl": "points/transactions",
+    "MyServiceBusReader": "Endpoint=sb://je-rms-dev-servicebus-01.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ojmB3lgsCFGFlN4dd+PWR4mtOWgQwQIKHNN12DyVkO4=",
+    "EnergyEarthQueueName": "je-rms-dev-servicebus-01-energyearth",
+    "CRMQueueName": "je-rms-dev-servicebus-01-crm",
+    "GBASSQueueName": "je-rms-dev-servicebus-01-gbass",
+    "SmartConnectQueueName": "je-rms-dev-servicebus-01-smartconnect",
+    "ProcessFulfillmentUrl": "https://je-rms-dev-functionapp.azurewebsites.net/api/ProcessFulfillmentForEnergyEarth?code=3lwNw59r0Knjt7V3FUyCEltBDuYR7CA7PVbTRhXPklnfq76cxeCb3w==",
+    "ReadEnergyEarthMessageBatchSize": 5
+  },
+  "ConnectionStrings": {
+    "jermsstorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=jermsstorage;AccountKey=GDwUCS0oL+izvVnEpKkia+zf5H7sHsXjfw5Bc0xjjcCpGoK0qDwO7UjfLpe/cUgiVw1Ow19aJxxXuAew03j7OA==",
+    "mycnnstr": "server=hfbkxov0le.database.windows.net;database=RMS_DEV;uid=transactor;password=Pa$$w0rd;"
+  }
+}

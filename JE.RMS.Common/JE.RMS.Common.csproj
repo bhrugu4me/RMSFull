@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{552EC30A-FC7E-41C8-88E4-F7C9E92DA59F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JE.RMS.Common</RootNamespace>
+    <AssemblyName>JE.RMS.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\GeneralConstants.cs" />
+    <Compile Include="Constants\RewardRequestSchema.cs" />
+    <Compile Include="Constants\USPContstants.cs" />
+    <Compile Include="Model\AssignUserRole.cs" />
+    <Compile Include="Model\CustomerExtended.cs" />
+    <Compile Include="Model\CustomerPointsResponse.cs" />
+    <Compile Include="Model\EEPointStatus.cs" />
+    <Compile Include="Model\EvaluateRuleResponse.cs" />
+    <Compile Include="Model\FulfillmentResponse.cs" />
+    <Compile Include="Model\FulfillmentChannelTransactionLog.cs" />
+    <Compile Include="Model\FulfillmentRules.cs" />
+    <Compile Include="Model\GetPointsRequest.cs" />
+    <Compile Include="Model\Jurisdiction.cs" />
+    <Compile Include="Model\Country.cs" />
+    <Compile Include="Model\MessageLog.cs" />
+    <Compile Include="Model\EEOrder.cs" />
+    <Compile Include="Model\ProcessLog.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\Program.cs" />
+    <Compile Include="Model\RewardPoint.cs" />
+    <Compile Include="Model\RewardsTrxChangeLog.cs" />
+    <Compile Include="Model\RewardTrxStatus.cs" />
+    <Compile Include="Model\SearchCustomers.cs" />
+    <Compile Include="Model\SearchRewardTrx.cs" />
+    <Compile Include="Model\SourceSystem.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Reward.cs" />
+    <Compile Include="Model\RewardsRequest.cs" />
+    <Compile Include="Model\SystemLog.cs" />
+    <Compile Include="Model\EEUser.cs" />
+    <Compile Include="Model\Role.cs" />
+    <Compile Include="Model\TransactionType.cs" />
+    <Compile Include="Model\WorkBench.cs" />
+    <Compile Include="MSSQLConnection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ReadMeFirst.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

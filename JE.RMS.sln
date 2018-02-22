@@ -1,0 +1,490 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubmitRewardsRequest", "SubmitRewardsRequest\SubmitRewardsRequest.csproj", "{1EEC9F40-FB44-40D8-8262-E33EB8D0A57C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JE.RMS.Common", "JE.RMS.Common\JE.RMS.Common.csproj", "{552EC30A-FC7E-41C8-88E4-F7C9E92DA59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JE.RMS.WebApp", "JE.RMS.WebApp\JE.RMS.WebApp.csproj", "{709024CF-7AD5-4316-893B-14F8CAF372AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetRoles", "GetRoles\GetRoles.csproj", "{1EABF4EE-B210-4970-9255-FF33753A3358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetAssignUserRoles", "GetAssignUserRoles\GetAssignUserRoles.csproj", "{66FC3129-7CAD-49AE-97BE-67BE82BE5348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEGetUser", "EEGetUser\EEGetUser.csproj", "{5EE89987-91A9-4010-B21A-6878A4A5DB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyAzureAccount", "VerifyAzureAccount\VerifyAzureAccount.csproj", "{74F4FE8C-8BDD-4AE3-8B58-EF200D934157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EESaveUser", "EESaveUser\EESaveUser.csproj", "{BBA55DDE-FF8F-4090-977D-91D0F59ABA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSystemLog", "GetSystemLog\GetSystemLog.csproj", "{7FD337D3-281A-4D48-B39B-0C22907797E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemLog", "SystemLog\SystemLog.csproj", "{33EE9D97-82C2-4AC8-87D3-6CADADC9F67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEGetPoints", "EEGetPoints\EEGetPoints.csproj", "{58F0D38E-3DBD-436F-817D-3F5532F81AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EERegisterPoints", "EERegisterPoints\EERegisterPoints.csproj", "{A0898DD4-27BB-4D59-B201-A1A64545887C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetJurisdictionList", "GetJurisdictionList\GetJurisdictionList.csproj", "{2E01CA8A-1D3C-4EBF-8D2F-6E2FA32605A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignUserRoles", "AssignUserRoles\AssignUserRoles.csproj", "{813DFFC7-AB10-4D5B-BC5C-68742085B7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckUser", "CheckUser\CheckUser.csproj", "{08FB9921-828D-4D51-832E-C0239A181041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCountryList", "GetCountryList\GetCountryList.csproj", "{3BDB2E88-2DDB-4889-A91E-31D287CC484B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEUpdatePointsStatus", "EEUpdatePointsStatus\EEUpdatePointsStatus.csproj", "{BAA4B8F1-E2BC-4AC2-9347-482BA29F6059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEGetPointsTransactions", "EEGetPointsTransactions\EEGetPointsTransactions.csproj", "{FD681508-3C90-460B-A637-FCF2B865589B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetRewardTrxStatusList", "GetRewardTrxStatusList\GetRewardTrxStatusList.csproj", "{2E2FF7AB-3D7A-466D-9FF7-A42AF3F93AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSourceSystemList", "GetSourceSystemList\GetSourceSystemList.csproj", "{B2FF6136-B560-4EB5-BDCA-99A6BA353FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetTransactionTypeList", "GetTransactionTypeList\GetTransactionTypeList.csproj", "{84B33EDF-4F1B-41EF-A177-DB02417B1129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMEEUserToCustomer", "DMEEUserToCustomer\DMEEUserToCustomer.csproj", "{02FB84EA-9019-4235-BC26-38DDF1AF3C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnRewardsRequestRecieved", "OnRewardsRequestRecieved\OnRewardsRequestRecieved.csproj", "{9E1F20B3-05DF-459D-8988-AA30CA475693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveRewardsTrx", "SaveRewardsTrx\SaveRewardsTrx.csproj", "{FA0BB2EA-3965-4890-A60E-9278A4099B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluateRewardsTrx", "EvaluateRewardsTrx\EvaluateRewardsTrx.csproj", "{47A686FB-4378-4531-B22B-A2C157428A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessFulfillmentForEnergyEarth", "ProcessFulfillmentForEnergyEarth\ProcessFulfillmentForEnergyEarth.csproj", "{58A04BBD-CC4E-4FC4-9CE5-3C5AF70C3D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCustomerExtendedOnCustomer", "GetCustomerExtendedOnCustomer\GetCustomerExtendedOnCustomer.csproj", "{51498D78-96AE-46ED-9585-48BD59B95DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCustomers", "GetCustomers\GetCustomers.csproj", "{587AF18E-6B54-4AB6-A10F-EB0789B550B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetProducts", "GetProducts\GetProducts.csproj", "{D0690571-62E4-4A05-8674-87F987BEDD75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetFulfillmentRulesOnProduct", "GetFulfillmentRulesOnProduct\GetFulfillmentRulesOnProduct.csproj", "{F31CC480-76DC-4C9D-9DC0-AF35CCC8E25B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMessagesOnRewardTrx", "GetMessagesOnRewardTrx\GetMessagesOnRewardTrx.csproj", "{C2C73B10-A6EF-41F1-96CC-0CCB790140CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveRewardsTrxChangeLog", "SaveRewardsTrxChangeLog\SaveRewardsTrxChangeLog.csproj", "{2C7039FC-697F-4A5D-8BF2-6AC945FDED0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetRewardsTrxChangeLog", "GetRewardsTrxChangeLog\GetRewardsTrxChangeLog.csproj", "{6C55D1BE-A8BA-42B5-AE17-F317C6911F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledGetRewardsTrxReceived", "ScheduledGetRewardsTrxReceived\ScheduledGetRewardsTrxReceived.csproj", "{47448669-3492-4E20-B22B-88F90205DA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledGetRewardsTrxReadyForFulfillment", "ScheduledGetRewardsTrxReadyForFulfillment\ScheduledGetRewardsTrxReadyForFulfillment.csproj", "{6BFF6B5F-3651-4EAC-B878-085DE1979CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchRewardTransactions", "SearchRewardTransactions\SearchRewardTransactions.csproj", "{022F7699-FDF8-42D4-B063-48CB417772BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetRewardFulfillmentRequest", "GetRewardFulfillmentRequest\GetRewardFulfillmentRequest.csproj", "{72B71581-0A0D-495A-B8BC-8BBAFD6E481B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetFulfillmentChannelLog", "GetFulfillmentChannelLog\GetFulfillmentChannelLog.csproj", "{5343DEBF-67B7-4C6C-B76F-FF290B9DA851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledGetPointTransactionLog", "ScheduledGetPointTransactionLog\ScheduledGetPointTransactionLog.csproj", "{E826E7E8-77F3-4C7D-9807-9B8DBBE9F0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWorkBenchList", "GetWorkBenchList\GetWorkBenchList.csproj", "{56D77A6B-8378-4B94-A1BE-B5DF9CD284B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledReadEnergyEarthMessagesFromQueue", "ScheduledReadEnergyEarthMessagesFromQueue\ScheduledReadEnergyEarthMessagesFromQueue.csproj", "{8BA17D6D-222A-4242-8724-BAF3345B4573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnRewardsResponseRecieved", "OnRewardsResponseRecieved\OnRewardsResponseRecieved.csproj", "{4B213494-3737-4DD1-B626-9AED6F6F5A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledReadRewardsTrxReceivedFromQueue", "ScheduledReadRewardsTrxReceivedFromQueue\ScheduledReadRewardsTrxReceivedFromQueue.csproj", "{4EBB1BC1-A3A4-467D-8147-47038FE23038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetPoints", "GetPoints\GetPoints.csproj", "{ABC2F4E8-6CC8-4212-8072-F209723B527C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledUpdateEnergyEarthUserInfo", "ScheduledUpdateEnergyEarthUserInfo\ScheduledUpdateEnergyEarthUserInfo.csproj", "{5FE0CA7F-ABCD-43B5-B57F-63A3273DADCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchCustomers", "SearchCustomers\SearchCustomers.csproj", "{91620A1D-730E-4F31-A702-41972F383951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubmitRewardFulfillmentResponse", "SubmitRewardFulfillmentResponse\SubmitRewardFulfillmentResponse.csproj", "{4F6BEAC4-85B9-404F-93F4-C9F04A4E789B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetPrograms", "GetPrograms\GetPrograms.csproj", "{13718345-CCA7-4CC0-A12E-EB09A0A8CD51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyReward", "ApplyReward\ApplyReward.csproj", "{49C52166-DB36-4A92-B91C-4933A341082D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledReadRewardsRequestRecieved", "ScheduledReadRewardsRequestRecieved\ScheduledReadRewardsRequestRecieved.csproj", "{775DCBE6-E597-4493-9517-04929E30C025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledReadRewardsResponseRecieved", "ScheduledReadRewardsResponseRecieved\ScheduledReadRewardsResponseRecieved.csproj", "{788482A3-4F9E-498D-B1E1-0EB4307820C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EECreateOrder", "EECreateOrder\EECreateOrder.csproj", "{7D144B91-8E9A-4A5A-A683-E3B4EB6C1C72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EEC9F40-FB44-40D8-8262-E33EB8D0A57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEC9F40-FB44-40D8-8262-E33EB8D0A57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEC9F40-FB44-40D8-8262-E33EB8D0A57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEC9F40-FB44-40D8-8262-E33EB8D0A57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552EC30A-FC7E-41C8-88E4-F7C9E92DA59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552EC30A-FC7E-41C8-88E4-F7C9E92DA59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552EC30A-FC7E-41C8-88E4-F7C9E92DA59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552EC30A-FC7E-41C8-88E4-F7C9E92DA59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709024CF-7AD5-4316-893B-14F8CAF372AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709024CF-7AD5-4316-893B-14F8CAF372AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709024CF-7AD5-4316-893B-14F8CAF372AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709024CF-7AD5-4316-893B-14F8CAF372AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EABF4EE-B210-4970-9255-FF33753A3358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EABF4EE-B210-4970-9255-FF33753A3358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EABF4EE-B210-4970-9255-FF33753A3358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EABF4EE-B210-4970-9255-FF33753A3358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FC3129-7CAD-49AE-97BE-67BE82BE5348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FC3129-7CAD-49AE-97BE-67BE82BE5348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FC3129-7CAD-49AE-97BE-67BE82BE5348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FC3129-7CAD-49AE-97BE-67BE82BE5348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE89987-91A9-4010-B21A-6878A4A5DB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE89987-91A9-4010-B21A-6878A4A5DB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE89987-91A9-4010-B21A-6878A4A5DB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE89987-91A9-4010-B21A-6878A4A5DB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F4FE8C-8BDD-4AE3-8B58-EF200D934157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F4FE8C-8BDD-4AE3-8B58-EF200D934157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F4FE8C-8BDD-4AE3-8B58-EF200D934157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F4FE8C-8BDD-4AE3-8B58-EF200D934157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA55DDE-FF8F-4090-977D-91D0F59ABA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA55DDE-FF8F-4090-977D-91D0F59ABA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA55DDE-FF8F-4090-977D-91D0F59ABA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA55DDE-FF8F-4090-977D-91D0F59ABA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD337D3-281A-4D48-B39B-0C22907797E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD337D3-281A-4D48-B39B-0C22907797E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD337D3-281A-4D48-B39B-0C22907797E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD337D3-281A-4D48-B39B-0C22907797E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33EE9D97-82C2-4AC8-87D3-6CADADC9F67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EE9D97-82C2-4AC8-87D3-6CADADC9F67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EE9D97-82C2-4AC8-87D3-6CADADC9F67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EE9D97-82C2-4AC8-87D3-6CADADC9F67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F0D38E-3DBD-436F-817D-3F5532F81AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F0D38E-3DBD-436F-817D-3F5532F81AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F0D38E-3DBD-436F-817D-3F5532F81AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F0D38E-3DBD-436F-817D-3F5532F81AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0898DD4-27BB-4D59-B201-A1A64545887C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0898DD4-27BB-4D59-B201-A1A64545887C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0898DD4-27BB-4D59-B201-A1A64545887C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0898DD4-27BB-4D59-B201-A1A64545887C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E01CA8A-1D3C-4EBF-8D2F-6E2FA32605A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E01CA8A-1D3C-4EBF-8D2F-6E2FA32605A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E01CA8A-1D3C-4EBF-8D2F-6E2FA32605A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E01CA8A-1D3C-4EBF-8D2F-6E2FA32605A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813DFFC7-AB10-4D5B-BC5C-68742085B7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813DFFC7-AB10-4D5B-BC5C-68742085B7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813DFFC7-AB10-4D5B-BC5C-68742085B7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813DFFC7-AB10-4D5B-BC5C-68742085B7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FB9921-828D-4D51-832E-C0239A181041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FB9921-828D-4D51-832E-C0239A181041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FB9921-828D-4D51-832E-C0239A181041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FB9921-828D-4D51-832E-C0239A181041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDB2E88-2DDB-4889-A91E-31D287CC484B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDB2E88-2DDB-4889-A91E-31D287CC484B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDB2E88-2DDB-4889-A91E-31D287CC484B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDB2E88-2DDB-4889-A91E-31D287CC484B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA4B8F1-E2BC-4AC2-9347-482BA29F6059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA4B8F1-E2BC-4AC2-9347-482BA29F6059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA4B8F1-E2BC-4AC2-9347-482BA29F6059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA4B8F1-E2BC-4AC2-9347-482BA29F6059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD681508-3C90-460B-A637-FCF2B865589B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD681508-3C90-460B-A637-FCF2B865589B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD681508-3C90-460B-A637-FCF2B865589B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD681508-3C90-460B-A637-FCF2B865589B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2FF7AB-3D7A-466D-9FF7-A42AF3F93AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2FF7AB-3D7A-466D-9FF7-A42AF3F93AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2FF7AB-3D7A-466D-9FF7-A42AF3F93AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2FF7AB-3D7A-466D-9FF7-A42AF3F93AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FF6136-B560-4EB5-BDCA-99A6BA353FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FF6136-B560-4EB5-BDCA-99A6BA353FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FF6136-B560-4EB5-BDCA-99A6BA353FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FF6136-B560-4EB5-BDCA-99A6BA353FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B33EDF-4F1B-41EF-A177-DB02417B1129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B33EDF-4F1B-41EF-A177-DB02417B1129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B33EDF-4F1B-41EF-A177-DB02417B1129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B33EDF-4F1B-41EF-A177-DB02417B1129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FB84EA-9019-4235-BC26-38DDF1AF3C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FB84EA-9019-4235-BC26-38DDF1AF3C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FB84EA-9019-4235-BC26-38DDF1AF3C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FB84EA-9019-4235-BC26-38DDF1AF3C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1F20B3-05DF-459D-8988-AA30CA475693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1F20B3-05DF-459D-8988-AA30CA475693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1F20B3-05DF-459D-8988-AA30CA475693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1F20B3-05DF-459D-8988-AA30CA475693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0BB2EA-3965-4890-A60E-9278A4099B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0BB2EA-3965-4890-A60E-9278A4099B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0BB2EA-3965-4890-A60E-9278A4099B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0BB2EA-3965-4890-A60E-9278A4099B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A686FB-4378-4531-B22B-A2C157428A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A686FB-4378-4531-B22B-A2C157428A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A686FB-4378-4531-B22B-A2C157428A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A686FB-4378-4531-B22B-A2C157428A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A04BBD-CC4E-4FC4-9CE5-3C5AF70C3D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A04BBD-CC4E-4FC4-9CE5-3C5AF70C3D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A04BBD-CC4E-4FC4-9CE5-3C5AF70C3D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A04BBD-CC4E-4FC4-9CE5-3C5AF70C3D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51498D78-96AE-46ED-9585-48BD59B95DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51498D78-96AE-46ED-9585-48BD59B95DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51498D78-96AE-46ED-9585-48BD59B95DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51498D78-96AE-46ED-9585-48BD59B95DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587AF18E-6B54-4AB6-A10F-EB0789B550B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587AF18E-6B54-4AB6-A10F-EB0789B550B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587AF18E-6B54-4AB6-A10F-EB0789B550B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587AF18E-6B54-4AB6-A10F-EB0789B550B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0690571-62E4-4A05-8674-87F987BEDD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0690571-62E4-4A05-8674-87F987BEDD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0690571-62E4-4A05-8674-87F987BEDD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0690571-62E4-4A05-8674-87F987BEDD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31CC480-76DC-4C9D-9DC0-AF35CCC8E25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31CC480-76DC-4C9D-9DC0-AF35CCC8E25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31CC480-76DC-4C9D-9DC0-AF35CCC8E25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31CC480-76DC-4C9D-9DC0-AF35CCC8E25B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C73B10-A6EF-41F1-96CC-0CCB790140CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C73B10-A6EF-41F1-96CC-0CCB790140CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C73B10-A6EF-41F1-96CC-0CCB790140CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C73B10-A6EF-41F1-96CC-0CCB790140CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7039FC-697F-4A5D-8BF2-6AC945FDED0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7039FC-697F-4A5D-8BF2-6AC945FDED0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7039FC-697F-4A5D-8BF2-6AC945FDED0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7039FC-697F-4A5D-8BF2-6AC945FDED0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C55D1BE-A8BA-42B5-AE17-F317C6911F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C55D1BE-A8BA-42B5-AE17-F317C6911F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C55D1BE-A8BA-42B5-AE17-F317C6911F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C55D1BE-A8BA-42B5-AE17-F317C6911F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47448669-3492-4E20-B22B-88F90205DA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47448669-3492-4E20-B22B-88F90205DA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47448669-3492-4E20-B22B-88F90205DA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47448669-3492-4E20-B22B-88F90205DA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFF6B5F-3651-4EAC-B878-085DE1979CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFF6B5F-3651-4EAC-B878-085DE1979CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFF6B5F-3651-4EAC-B878-085DE1979CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFF6B5F-3651-4EAC-B878-085DE1979CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022F7699-FDF8-42D4-B063-48CB417772BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022F7699-FDF8-42D4-B063-48CB417772BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022F7699-FDF8-42D4-B063-48CB417772BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022F7699-FDF8-42D4-B063-48CB417772BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B71581-0A0D-495A-B8BC-8BBAFD6E481B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B71581-0A0D-495A-B8BC-8BBAFD6E481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B71581-0A0D-495A-B8BC-8BBAFD6E481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B71581-0A0D-495A-B8BC-8BBAFD6E481B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5343DEBF-67B7-4C6C-B76F-FF290B9DA851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5343DEBF-67B7-4C6C-B76F-FF290B9DA851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5343DEBF-67B7-4C6C-B76F-FF290B9DA851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5343DEBF-67B7-4C6C-B76F-FF290B9DA851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E826E7E8-77F3-4C7D-9807-9B8DBBE9F0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E826E7E8-77F3-4C7D-9807-9B8DBBE9F0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E826E7E8-77F3-4C7D-9807-9B8DBBE9F0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E826E7E8-77F3-4C7D-9807-9B8DBBE9F0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D77A6B-8378-4B94-A1BE-B5DF9CD284B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D77A6B-8378-4B94-A1BE-B5DF9CD284B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D77A6B-8378-4B94-A1BE-B5DF9CD284B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D77A6B-8378-4B94-A1BE-B5DF9CD284B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA17D6D-222A-4242-8724-BAF3345B4573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA17D6D-222A-4242-8724-BAF3345B4573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA17D6D-222A-4242-8724-BAF3345B4573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA17D6D-222A-4242-8724-BAF3345B4573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B213494-3737-4DD1-B626-9AED6F6F5A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B213494-3737-4DD1-B626-9AED6F6F5A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B213494-3737-4DD1-B626-9AED6F6F5A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B213494-3737-4DD1-B626-9AED6F6F5A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBB1BC1-A3A4-467D-8147-47038FE23038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBB1BC1-A3A4-467D-8147-47038FE23038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBB1BC1-A3A4-467D-8147-47038FE23038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBB1BC1-A3A4-467D-8147-47038FE23038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC2F4E8-6CC8-4212-8072-F209723B527C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC2F4E8-6CC8-4212-8072-F209723B527C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC2F4E8-6CC8-4212-8072-F209723B527C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC2F4E8-6CC8-4212-8072-F209723B527C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE0CA7F-ABCD-43B5-B57F-63A3273DADCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE0CA7F-ABCD-43B5-B57F-63A3273DADCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE0CA7F-ABCD-43B5-B57F-63A3273DADCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE0CA7F-ABCD-43B5-B57F-63A3273DADCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91620A1D-730E-4F31-A702-41972F383951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91620A1D-730E-4F31-A702-41972F383951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91620A1D-730E-4F31-A702-41972F383951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91620A1D-730E-4F31-A702-41972F383951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6BEAC4-85B9-404F-93F4-C9F04A4E789B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6BEAC4-85B9-404F-93F4-C9F04A4E789B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6BEAC4-85B9-404F-93F4-C9F04A4E789B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6BEAC4-85B9-404F-93F4-C9F04A4E789B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13718345-CCA7-4CC0-A12E-EB09A0A8CD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13718345-CCA7-4CC0-A12E-EB09A0A8CD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13718345-CCA7-4CC0-A12E-EB09A0A8CD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13718345-CCA7-4CC0-A12E-EB09A0A8CD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C52166-DB36-4A92-B91C-4933A341082D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C52166-DB36-4A92-B91C-4933A341082D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C52166-DB36-4A92-B91C-4933A341082D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C52166-DB36-4A92-B91C-4933A341082D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775DCBE6-E597-4493-9517-04929E30C025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775DCBE6-E597-4493-9517-04929E30C025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775DCBE6-E597-4493-9517-04929E30C025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775DCBE6-E597-4493-9517-04929E30C025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788482A3-4F9E-498D-B1E1-0EB4307820C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788482A3-4F9E-498D-B1E1-0EB4307820C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788482A3-4F9E-498D-B1E1-0EB4307820C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788482A3-4F9E-498D-B1E1-0EB4307820C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D144B91-8E9A-4A5A-A683-E3B4EB6C1C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D144B91-8E9A-4A5A-A683-E3B4EB6C1C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D144B91-8E9A-4A5A-A683-E3B4EB6C1C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D144B91-8E9A-4A5A-A683-E3B4EB6C1C72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 53
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.tblocks.ca:8080/tbtfs/techblocks
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = JE.RMS.Common\\JE.RMS.Common.csproj
+		SccProjectName1 = JE.RMS.Common
+		SccLocalPath1 = JE.RMS.Common
+		SccProjectUniqueName2 = JE.RMS.WebApp\\JE.RMS.WebApp.csproj
+		SccProjectName2 = JE.RMS.WebApp
+		SccLocalPath2 = JE.RMS.WebApp
+		SccProjectUniqueName3 = SubmitRewardsRequest\\SubmitRewardsRequest.csproj
+		SccProjectName3 = SubmitRewardsRequest
+		SccLocalPath3 = SubmitRewardsRequest
+		SccProjectUniqueName4 = GetRoles\\GetRoles.csproj
+		SccProjectName4 = GetRoles
+		SccLocalPath4 = GetRoles
+		SccProjectUniqueName5 = GetAssignUserRoles\\GetAssignUserRoles.csproj
+		SccProjectName5 = GetAssignUserRoles
+		SccLocalPath5 = GetAssignUserRoles
+		SccProjectUniqueName6 = EEGetUser\\EEGetUser.csproj
+		SccProjectName6 = EEGetUser
+		SccLocalPath6 = EEGetUser
+		SccProjectUniqueName7 = GetSystemLog\\GetSystemLog.csproj
+		SccProjectName7 = GetSystemLog
+		SccLocalPath7 = GetSystemLog
+		SccProjectUniqueName8 = VerifyAzureAccount\\VerifyAzureAccount.csproj
+		SccProjectName8 = VerifyAzureAccount
+		SccLocalPath8 = VerifyAzureAccount
+		SccProjectUniqueName9 = SystemLog\\SystemLog.csproj
+		SccProjectName9 = SystemLog
+		SccLocalPath9 = SystemLog
+		SccProjectUniqueName10 = SaveRewardsTrx\\SaveRewardsTrx.csproj
+		SccProjectName10 = SaveRewardsTrx
+		SccLocalPath10 = SaveRewardsTrx
+		SccProjectUniqueName11 = EEGetPoints\\EEGetPoints.csproj
+		SccProjectName11 = EEGetPoints
+		SccLocalPath11 = EEGetPoints
+		SccProjectUniqueName12 = EERegisterPoints\\EERegisterPoints.csproj
+		SccProjectName12 = EERegisterPoints
+		SccLocalPath12 = EERegisterPoints
+		SccProjectUniqueName13 = GetJurisdictionList\\GetJurisdictionList.csproj
+		SccProjectName13 = GetJurisdictionList
+		SccLocalPath13 = GetJurisdictionList
+		SccProjectUniqueName14 = AssignUserRoles\\AssignUserRoles.csproj
+		SccProjectName14 = AssignUserRoles
+		SccLocalPath14 = AssignUserRoles
+		SccProjectUniqueName15 = CheckUser\\CheckUser.csproj
+		SccProjectName15 = CheckUser
+		SccLocalPath15 = CheckUser
+		SccProjectUniqueName16 = GetCountryList\\GetCountryList.csproj
+		SccProjectName16 = GetCountryList
+		SccLocalPath16 = GetCountryList
+		SccProjectUniqueName17 = EEUpdatePointsStatus\\EEUpdatePointsStatus.csproj
+		SccProjectName17 = EEUpdatePointsStatus
+		SccLocalPath17 = EEUpdatePointsStatus
+		SccProjectUniqueName18 = EEGetPointsTransactions\\EEGetPointsTransactions.csproj
+		SccProjectName18 = EEGetPointsTransactions
+		SccLocalPath18 = EEGetPointsTransactions
+		SccProjectUniqueName19 = GetRewardTrxStatusList\\GetRewardTrxStatusList.csproj
+		SccProjectName19 = GetRewardTrxStatusList
+		SccLocalPath19 = GetRewardTrxStatusList
+		SccProjectUniqueName20 = GetSourceSystemList\\GetSourceSystemList.csproj
+		SccProjectName20 = GetSourceSystemList
+		SccLocalPath20 = GetSourceSystemList
+		SccProjectUniqueName21 = GetTransactionTypeList\\GetTransactionTypeList.csproj
+		SccProjectName21 = GetTransactionTypeList
+		SccLocalPath21 = GetTransactionTypeList
+		SccProjectUniqueName22 = OnRewardsRequestRecieved\\OnRewardsRequestRecieved.csproj
+		SccProjectName22 = OnRewardsRequestRecieved
+		SccLocalPath22 = OnRewardsRequestRecieved
+		SccProjectUniqueName23 = EESaveUser\\EESaveUser.csproj
+		SccProjectName23 = EESaveUser
+		SccLocalPath23 = EESaveUser
+		SccProjectUniqueName24 = EvaluateRewardsTrx\\EvaluateRewardsTrx.csproj
+		SccProjectName24 = EvaluateRewardsTrx
+		SccLocalPath24 = EvaluateRewardsTrx
+		SccProjectUniqueName25 = ProcessFulfillmentForEnergyEarth\\ProcessFulfillmentForEnergyEarth.csproj
+		SccProjectName25 = ProcessFulfillmentForEnergyEarth
+		SccLocalPath25 = ProcessFulfillmentForEnergyEarth
+		SccProjectUniqueName26 = DMEEUserToCustomer\\DMEEUserToCustomer.csproj
+		SccProjectName26 = DMEEUserToCustomer
+		SccLocalPath26 = DMEEUserToCustomer
+		SccProjectUniqueName27 = GetCustomerExtendedOnCustomer\\GetCustomerExtendedOnCustomer.csproj
+		SccProjectName27 = GetCustomerExtendedOnCustomer
+		SccLocalPath27 = GetCustomerExtendedOnCustomer
+		SccProjectUniqueName28 = GetCustomers\\GetCustomers.csproj
+		SccProjectName28 = GetCustomers
+		SccLocalPath28 = GetCustomers
+		SccProjectUniqueName29 = GetProducts\\GetProducts.csproj
+		SccProjectName29 = GetProducts
+		SccLocalPath29 = GetProducts
+		SccProjectUniqueName30 = GetFulfillmentRulesOnProduct\\GetFulfillmentRulesOnProduct.csproj
+		SccProjectName30 = GetFulfillmentRulesOnProduct
+		SccLocalPath30 = GetFulfillmentRulesOnProduct
+		SccProjectUniqueName31 = GetMessagesOnRewardTrx\\GetMessagesOnRewardTrx.csproj
+		SccProjectName31 = GetMessagesOnRewardTrx
+		SccLocalPath31 = GetMessagesOnRewardTrx
+		SccProjectUniqueName32 = SaveRewardsTrxChangeLog\\SaveRewardsTrxChangeLog.csproj
+		SccProjectName32 = SaveRewardsTrxChangeLog
+		SccLocalPath32 = SaveRewardsTrxChangeLog
+		SccProjectUniqueName33 = GetRewardsTrxChangeLog\\GetRewardsTrxChangeLog.csproj
+		SccProjectName33 = GetRewardsTrxChangeLog
+		SccLocalPath33 = GetRewardsTrxChangeLog
+		SccProjectUniqueName34 = ScheduledGetRewardsTrxReceived\\ScheduledGetRewardsTrxReceived.csproj
+		SccProjectName34 = ScheduledGetRewardsTrxReceived
+		SccLocalPath34 = ScheduledGetRewardsTrxReceived
+		SccProjectUniqueName35 = ScheduledGetRewardsTrxReadyForFulfillment\\ScheduledGetRewardsTrxReadyForFulfillment.csproj
+		SccProjectName35 = ScheduledGetRewardsTrxReadyForFulfillment
+		SccLocalPath35 = ScheduledGetRewardsTrxReadyForFulfillment
+		SccProjectUniqueName36 = SearchRewardTransactions\\SearchRewardTransactions.csproj
+		SccProjectName36 = SearchRewardTransactions
+		SccLocalPath36 = SearchRewardTransactions
+		SccProjectUniqueName37 = GetRewardFulfillmentRequest\\GetRewardFulfillmentRequest.csproj
+		SccProjectName37 = GetRewardFulfillmentRequest
+		SccLocalPath37 = GetRewardFulfillmentRequest
+		SccProjectUniqueName38 = GetFulfillmentChannelLog\\GetFulfillmentChannelLog.csproj
+		SccProjectName38 = GetFulfillmentChannelLog
+		SccLocalPath38 = GetFulfillmentChannelLog
+		SccProjectUniqueName39 = ScheduledGetPointTransactionLog\\ScheduledGetPointTransactionLog.csproj
+		SccProjectName39 = ScheduledGetPointTransactionLog
+		SccLocalPath39 = ScheduledGetPointTransactionLog
+		SccProjectUniqueName40 = GetWorkBenchList\\GetWorkBenchList.csproj
+		SccProjectName40 = GetWorkBenchList
+		SccLocalPath40 = GetWorkBenchList
+		SccProjectUniqueName41 = ScheduledReadEnergyEarthMessagesFromQueue\\ScheduledReadEnergyEarthMessagesFromQueue.csproj
+		SccProjectName41 = ScheduledReadEnergyEarthMessagesFromQueue
+		SccLocalPath41 = ScheduledReadEnergyEarthMessagesFromQueue
+		SccProjectUniqueName42 = OnRewardsResponseRecieved\\OnRewardsResponseRecieved.csproj
+		SccProjectName42 = OnRewardsResponseRecieved
+		SccLocalPath42 = OnRewardsResponseRecieved
+		SccProjectUniqueName43 = ScheduledReadRewardsTrxReceivedFromQueue\\ScheduledReadRewardsTrxReceivedFromQueue.csproj
+		SccProjectName43 = ScheduledReadRewardsTrxReceivedFromQueue
+		SccLocalPath43 = ScheduledReadRewardsTrxReceivedFromQueue
+		SccProjectUniqueName44 = GetPoints\\GetPoints.csproj
+		SccProjectName44 = GetPoints
+		SccLocalPath44 = GetPoints
+		SccProjectUniqueName45 = ScheduledUpdateEnergyEarthUserInfo\\ScheduledUpdateEnergyEarthUserInfo.csproj
+		SccProjectName45 = ScheduledUpdateEnergyEarthUserInfo
+		SccLocalPath45 = ScheduledUpdateEnergyEarthUserInfo
+		SccProjectUniqueName46 = SearchCustomers\\SearchCustomers.csproj
+		SccProjectName46 = SearchCustomers
+		SccLocalPath46 = SearchCustomers
+		SccProjectUniqueName47 = SubmitRewardFulfillmentResponse\\SubmitRewardFulfillmentResponse.csproj
+		SccProjectName47 = SubmitRewardFulfillmentResponse
+		SccLocalPath47 = SubmitRewardFulfillmentResponse
+		SccProjectUniqueName48 = GetPrograms\\GetPrograms.csproj
+		SccProjectName48 = GetPrograms
+		SccLocalPath48 = GetPrograms
+		SccProjectUniqueName49 = ApplyReward\\ApplyReward.csproj
+		SccProjectName49 = ApplyReward
+		SccLocalPath49 = ApplyReward
+		SccProjectUniqueName50 = ScheduledReadRewardsRequestRecieved\\ScheduledReadRewardsRequestRecieved.csproj
+		SccProjectName50 = ScheduledReadRewardsRequestRecieved
+		SccLocalPath50 = ScheduledReadRewardsRequestRecieved
+		SccProjectUniqueName51 = ScheduledReadRewardsResponseRecieved\\ScheduledReadRewardsResponseRecieved.csproj
+		SccProjectName51 = ScheduledReadRewardsResponseRecieved
+		SccLocalPath51 = ScheduledReadRewardsResponseRecieved
+		SccProjectUniqueName52 = EECreateOrder\\EECreateOrder.csproj
+		SccProjectName52 = EECreateOrder
+		SccLocalPath52 = EECreateOrder
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\ReadRewardsTrxFromQueue.dll",
+  "entryPoint": "JE.RMS.Services.ReadRewardsTrxFromQueue.Run",
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "queueName": "submitrewardsrequestqueue",
+      "connection": "StorageConnectionString",
+      "type": "queueTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}
